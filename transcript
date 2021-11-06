@@ -1,0 +1,38 @@
+# Compile of clkrst.v was successful.
+# Compile of dff.v was successful.
+# Compile of fetch.v was successful.
+# Compile of fetch_hier.v was successful.
+# Compile of fetch_hier_bench.v was successful.
+# Compile of memory2c.v was successful.
+# Compile of proc.v was successful.
+# Compile of proc_beqz_added.v was successful.
+# Compile of proc_hier.v was successful.
+# Compile of proc_hier_bench.v was successful.
+# Compile of rf.v was successful.
+# Compile of rf_bench.v was successful.
+# Compile of rf_hier.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.proc_hier_bench
+# vsim -gui work.proc_hier_bench 
+# Start time: 15:50:20 on Nov 06,2021
+# Loading work.proc_hier_bench
+# Loading work.proc_hier
+# Loading work.clkrst
+# Loading work.proc_beqz_added
+# Loading work.fetch
+# Loading work.memory2c
+# Loading work.rf
+# Loading work.dff
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/proc_hier_bench/DUT/p0/ifetch/*
+add wave -position insertpoint sim:/proc_hier_bench/DUT/p0/irf/*
+run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/memory2c.v(72)
+#    Time: 0 ps  Iteration: 1  Instance: /proc_hier_bench/DUT/p0/ifetch/imem
+# ** Note: $finish    : C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier_bench.v(96)
+#    Time: 300 ps  Iteration: 1  Instance: /proc_hier_bench
+# 1
+# Break in Module proc_hier_bench at C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier_bench.v line 96
