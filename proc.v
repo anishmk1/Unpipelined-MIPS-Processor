@@ -27,7 +27,7 @@ module proc (/*AUTOARG*/
    wire err_fetch, err_decode, err_mem;
    wire [4:0] opcode;
    wire [15:0] instr, PC, PC_nxt;
-   wire [15:0] reg1data, reg2data, writedata, alu_result;
+   wire [15:0] reg1data, reg2data, writedata, alu_result, mem_out;
 
    assign err = err_fetch | err_decode | err_mem;
 
