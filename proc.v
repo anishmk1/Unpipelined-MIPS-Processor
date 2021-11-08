@@ -40,7 +40,7 @@ module proc (/*AUTOARG*/
    control ctrl0(.instr(instr), .opcode(opcode), .RegDest(RegDest), .alu_op(alu_op), .MemToReg(MemToReg), .MemRead(MemRead), .MemWrite(MemWrite));
 
    // fetch unit
-   fetch fetch0(.clk(clk), .rst(rst), .err(err_fetch), .PC(PC), .PC_nxt(PC_nxt));
+   fetch fetch0(.clk(clk), .rst(rst), .err(err_fetch), .PC(PC), .PC_nxt(PC_nxt), .instr(instr));
 
    // decode unit
    decode decode0(.clk(clk), .rst(rst), .err(err_decode), .instr(instr), .opcode(opcode), .reg1data(reg1data), .reg2data(reg2data), .writedata(writedata), .RegDest(RegDest));
