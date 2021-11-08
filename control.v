@@ -20,7 +20,7 @@ module control(
     assign MemWrite = 1'b0;
 
     assign RegDest = (opcode[4:3] == 2'b01 || opcode[4:3] == 2'b10) ? 0 :   // i type instr
-                    (opcode[4:3] == 2'b11) ? 2;                             // r-type instr  
+                    (opcode[4:3] == 2'b11) ? 2 : 3;                         // r-type instr  
 
     assign alu_op = alu_op_reg;
 

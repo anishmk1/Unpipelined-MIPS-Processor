@@ -10,9 +10,7 @@ module decode(
     input [1:0] RegDest     // control sig
 );
     // contains register file. Takes in instruction as input and outputs register values
-    // control signals for register file??
 
-    wire [4:0] opcode;
     wire halt, beqz;
     wire [15:0] intermediate;
     wire [2:0] writeregsel;
@@ -22,7 +20,7 @@ module decode(
     assign intermediate = {{10{instr[4]}}, instr[4:0]};   // sign extend intermediate
     assign read1regsel = instr[10:8];
     assign read2regsel = instr[7:5];
-    assign writeregsel = (ReDgest == 2'd0) ? instr[7:5] : 
+    assign writeregsel = (RegDest == 2'd0) ? instr[7:5] : 
                         (RegDest == 2'd1) ? instr[10:8] : 
                         (RegDest == 2'd2) ? instr[4:2] :
                         3'd7;       // write to register 7 if JAL instr
