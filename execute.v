@@ -15,7 +15,8 @@ module execute(
                         (op[3:2] == 2'b10) shifter_out: // shift operation
                         (op == 4'd12) andn_out :        // ANDN op
                         (op == 4'd13) slb_out :         // shift left byte (SLB) op
-                        (op == 4'd14) btr_out;          // BTR
+                        (op == 4'd14) btr_out :         // BTR
+                        0;          
 
 
     // instance shifter

@@ -5,7 +5,7 @@ module control(
     output [3:0] alu_op,
     output MemToReg,
     output MemRead,
-    output MemWrite,
+    output MemWrite
 );
     // Control unit
     

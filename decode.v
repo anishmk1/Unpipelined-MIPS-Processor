@@ -7,7 +7,7 @@ module decode(
     output [15:0] reg1data,
     output [15:0] reg2data,
     input [15:0] writedata,
-    input [1:0] RegDest,     // control sig
+    input [1:0] RegDest     // control sig
 );
     // contains register file. Takes in instruction as input and outputs register values
     // control signals for register file??
