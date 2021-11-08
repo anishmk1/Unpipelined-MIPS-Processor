@@ -13,7 +13,7 @@ module decode(
 
     wire halt, beqz;
     wire [15:0] intermediate;
-    wire [2:0] writeregsel;
+    wire [2:0] writeregsel, read1regsel, read2regsel;
 
     // instruction decode
     assign opcode = instr[15:11];

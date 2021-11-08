@@ -27,16 +27,17 @@ module proc (/*AUTOARG*/
    wire err_fetch, err_decode, err_mem;
    wire [4:0] opcode;
    wire [15:0] instr, PC, PC_nxt;
-   wire [15:0] reg1data, reg2data;
+   wire [15:0] reg1data, reg2data, writedata, alu_result;
 
    assign err = err_fetch | err_decode | err_mem;
 
    // control signals
    wire [1:0] RegDest;
+   wire [3:0] alu_op;
    wire MemToReg, MemRead, MemWrite;
 
    // control unit
-   control ctrl0(.instr(instr), .opcode(opcode), .RegDest(RegDest));
+   control ctrl0(.instr(instr), .opcode(opcode), .RegDest(RegDest), .alu_op(alu_op), .MemToReg(MemToReg), .MemRead(MemRead), .MemRead(MemRead));
 
    // fetch unit
    fetch fetch0(.clk(clk), .rst(rst), .err(err_fetch), .PC(PC), .PC_nxt(PC_nxt));
