@@ -7,7 +7,7 @@ module memory(
 );
     wire memReadorWrite;
 
-    assign memReadorWrite = memRead | memWrite;
+    assign memReadorWrite = MemRead | MemWrite;
 
     memory2c imem(.data_out(mem_out), .data_in(writeData), .addr(addr), .enable(memReadorWrite), .wr(MemWrite), .createdump(1'b0), .clk(clk), .rst(rst));
 
