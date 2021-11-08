@@ -124,7 +124,7 @@ module proc_hier_bench();
    // Edit the example below. You must change the signal
    // names on the right hand side
     
-   assign PC = DUT.p0.fetch0.pcCurrent;
+   assign PC = DUT.p0.fetch0.PC;
    assign Inst = DUT.p0.fetch0.instr;
    
    assign RegWrite = DUT.p0.decode0.regFile0.write;
@@ -142,13 +142,13 @@ module proc_hier_bench();
    assign MemWrite = (DUT.p0.memory0.memReadorWrite & DUT.p0.memory0.memWrite);
    // Is memory being written to (1 bit signal)
    
-   assign MemAddress = DUT.p0.memory0.aluResult;
+   assign MemAddress = DUT.p0.memory0.addr;
    // Address to access memory with (for both reads and writes to memory, 16 bits)
    
    assign MemData = DUT.p0.memory0.writeData;
    // Data to be written to memory for memory writes (16 bits)
    
-   assign Halt = DUT.p0.memory0.halt;
+   assign Halt = DUT.p0.decode0.halt;
    // Is processor halted (1 bit signal)
    
    /* Add anything else you want here */

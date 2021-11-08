@@ -5,12 +5,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	clkrst
 
-} {} {}} C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc.v {1 {vlog -work work -stats=none C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc.v
+} {} {}} C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_beqz_added.v {1 {vlog -work work -stats=none C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_beqz_added.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module proc
+-- Compiling module proc_beqz_added
 
 Top level modules:
-	proc
+	proc_beqz_added
 
 } {} {}} C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/memory2c.v {1 {vlog -work work -stats=none C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/memory2c.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -47,6 +47,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fetch
 
+} {} {}} C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier.v {1 {vlog -work work -stats=none C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module proc_hier
+
+Top level modules:
+	proc_hier
+
 } {} {}} C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/dff.v {1 {vlog -work work -stats=none C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/dff.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module dff
@@ -54,25 +61,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	dff
 
-} {} {}} C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf.v {1 {vlog -work work -stats=none C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module rf
-
-Top level modules:
-	rf
-
 } {} {}} C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier.v {1 {vlog -work work -stats=none C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module fetch_hier
 
 Top level modules:
 	fetch_hier
-
-} {} {}} C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier_bench.v {1 {vlog -work work -stats=none C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier_bench.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module proc_hier_bench
-
-Top level modules:
-	proc_hier_bench
 
 } {} {}}
