@@ -18,7 +18,7 @@ module proc_hier();
              // Inputs
              .err                       (err));
    
-   proc_beqz_added p0(/*AUTOINST*/
+   proc p0(/*AUTOINST*/
            // Outputs
            .err                         (err),
            // Inputs
