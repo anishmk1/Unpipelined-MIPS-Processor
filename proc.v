@@ -37,7 +37,7 @@ module proc (/*AUTOARG*/
    wire MemToReg, MemRead, MemWrite;
 
    // control unit
-   control ctrl0(.instr(instr), .opcode(opcode), .RegDest(RegDest), .alu_op(alu_op), .MemToReg(MemToReg), .MemRead(MemRead), .MemRead(MemRead));
+   control ctrl0(.instr(instr), .opcode(opcode), .RegDest(RegDest), .alu_op(alu_op), .MemToReg(MemToReg), .MemRead(MemRead), .MemWrite(MemWrite));
 
    // fetch unit
    fetch fetch0(.clk(clk), .rst(rst), .err(err_fetch), .PC(PC), .PC_nxt(PC_nxt));
