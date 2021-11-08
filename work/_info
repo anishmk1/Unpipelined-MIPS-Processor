@@ -10,301 +10,301 @@ z2
 cModel Technology
 dC:/Users/anish/Documents/MyVSCode/ECE551/ex15 - RemoteComm
 vclkrst
-Z0 !s110 1636231644
+!s110 1636338397
 !i10b 1
 !s100 Eb@RK46?g=V]XMJ3JbgOG3
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IOVlz[07DGVbbZ>e`6Z_bX0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor
 w1635224737
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/clkrst.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/clkrst.v
-!i122 0
+!i122 26
 L0 12 35
-Z4 OV;L;2020.1;71
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1636231644.000000
+Z4 !s108 1636338397.000000
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/clkrst.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/clkrst.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 vdff
-R0
+Z7 !s110 1636338398
 !i10b 1
 !s100 9ioan2i;Y:Fi:S61Uzibo0
-R1
+R0
 I6@E=FmW3ZL_^oVkRZCgLQ3
+R1
 R2
-R3
 w1634920441
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/dff.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/dff.v
-!i122 1
+!i122 27
 L0 6 16
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/dff.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/dff.v|
 !i113 1
+R5
 R6
-R7
 vfetch
-R0
+R7
 !i10b 1
 !s100 Q8i^7]KT4P;1LjHM0V]8H2
-R1
+R0
 Iazif;W^UW>N]zm;01XdRH1
+R1
 R2
-R3
 w1635215245
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch.v
-!i122 2
+!i122 28
 L0 1 18
-R4
+R3
 r1
 !s85 0
 31
-R5
+Z8 !s108 1636338398.000000
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch.v|
 !i113 1
+R5
 R6
-R7
 vfetch_hier
-Z8 !s110 1636231645
+R7
 !i10b 1
 !s100 RaX^1V9co:Mhm3H7UcOcH2
-R1
+R0
 Il2n:A_4CoFo<di72ID[@j1
+R1
 R2
-R3
 w1633388186
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier.v
-!i122 3
+!i122 29
 L0 1 14
-R4
+R3
 r1
 !s85 0
 31
-R5
+R8
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier.v|
 !i113 1
+R5
 R6
-R7
 vfetch_hier_bench
-R8
+R7
 !i10b 1
 !s100 DT0h`@SdUPUJ?VF`RMjc30
-R1
+R0
 IR]YHPnYEV4P4F<KOh8oTM0
+R1
 R2
-R3
 w1635129742
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier_bench.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier_bench.v
-!i122 4
+!i122 30
 Z9 L0 1 39
-R4
+R3
 r1
 !s85 0
 31
-Z10 !s108 1636231645.000000
+R8
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier_bench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/fetch_hier_bench.v|
 !i113 1
+R5
 R6
-R7
 vmemory2c
-R8
+R7
 !i10b 1
 !s100 i=K1Q0Ic4OnmXG`;k2nb=3
-R1
+R0
 IB_=f_ObLIgM7_KXDWNa<93
+R1
 R2
-R3
 w1634927243
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/memory2c.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/memory2c.v
-!i122 5
+!i122 31
 L0 35 59
-R4
+R3
 r1
 !s85 0
 31
-R10
+R8
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/memory2c.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/memory2c.v|
 !i113 1
+R5
 R6
-R7
 vproc
-R8
+R7
 !i10b 1
 !s100 HObOY0JKB?NY`4]C^7jVk1
-R1
+R0
 I>?<ne598l<J9ncGN0=mmE2
+R1
 R2
-R3
 w1635218887
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc.v
-!i122 6
+!i122 32
 L0 1 35
-R4
+R3
 r1
 !s85 0
 31
-R10
+R8
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc.v|
 !i113 1
+R5
 R6
-R7
 vproc_beqz_added
-R8
+R7
 !i10b 1
 !s100 1KZUBQ?53B6LMEYGcz>Wi0
-R1
+R0
 IYfYlco[R:L0a67<`O4^[F3
+R1
 R2
-R3
-w1635215500
+w1636231885
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_beqz_added.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_beqz_added.v
-!i122 7
+!i122 33
 R9
-R4
+R3
 r1
 !s85 0
 31
-R10
+R8
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_beqz_added.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_beqz_added.v|
 !i113 1
+R5
 R6
-R7
 vproc_hier
-R8
+R7
 !i10b 1
 !s100 N>zFfn8;=nXQW^LO;3R9a1
-R1
+R0
 ICzVdX]OG1>bIbB1bHVjFK3
+R1
 R2
-R3
-w1635220693
+w1636231870
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier.v
-!i122 8
+!i122 34
 L0 6 24
-R4
+R3
 r1
 !s85 0
 31
-R10
+R8
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier.v|
 !i113 1
+R5
 R6
-R7
 vproc_hier_bench
-R8
+R7
 !i10b 1
 !s100 G>bzHi0TWlHN^Dj26<]T_2
-R1
+R0
 I4z^VWdi2f`@fgBXXV7MBJ1
+R1
 R2
-R3
 w1636231410
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier_bench.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier_bench.v
-!i122 9
+!i122 35
 L0 4 154
-R4
+R3
 r1
 !s85 0
 31
-R10
+R8
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier_bench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/proc_hier_bench.v|
 !i113 1
+R5
 R6
-R7
 vrf
-R8
+Z10 !s110 1636338399
 !i10b 1
 !s100 Df4noP7YFIgNcNkWh13bh1
-R1
+R0
 IGkJ6_g?WLe>ASeF=m8izH1
+R1
 R2
-R3
 w1635125266
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf.v
-!i122 10
+!i122 36
 L0 4 47
-R4
+R3
 r1
 !s85 0
 31
-R10
+Z11 !s108 1636338399.000000
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf.v|
 !i113 1
+R5
 R6
-R7
 vrf_bench
-R8
+R10
 !i10b 1
 !s100 4hbFZ?BS:F7K3X6@SlCdD2
-R1
+R0
 I>BEgP4fJ01Ce4mRiboLP30
+R1
 R2
-R3
 w1456801740
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf_bench.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf_bench.v
-!i122 11
+!i122 37
 L0 5 114
-R4
+R3
 r1
 !s85 0
 31
-R10
+R11
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf_bench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf_bench.v|
 !i113 1
+R5
 R6
-R7
 vrf_hier
-!s110 1636231646
+R10
 !i10b 1
 !s100 mLF_SXHlcF7cPMUo<e^PQ3
-R1
+R0
 I7FSnD<JTB]aDHbT[6?97J2
+R1
 R2
-R3
 w1455459212
 8C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf_hier.v
 FC:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf_hier.v
-!i122 12
+!i122 38
 L0 7 36
-R4
+R3
 r1
 !s85 0
 31
-R10
+R11
 !s107 C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf_hier.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/anish/Documents/MyVSCode/COMPSCI552/Unpipelined-MIPS-Processor/rf_hier.v|
 !i113 1
+R5
 R6
-R7
